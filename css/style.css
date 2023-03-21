@@ -92,9 +92,6 @@ button {
 
 }
 
-
-/* regole debug section header */
-
 .titolo-section {
     font-size: 30px;
 }
@@ -118,7 +115,7 @@ button {
 
 .section-white {
     display: flex;
-    background-color: burlywood;
+    background-color: white;
     height: 650px;
     justify-content:center;
     align-items:center;
@@ -126,26 +123,43 @@ button {
     
 }
 
-.img {
+img {
+    width: 600px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+/* debug img prime 3 sezioni */
+
+/* .img {
     background-color: black;
     height: 250px;
     width: 400px;
 
-}
+} */
+
 
 .text-main {
     
-    width: 300px;
-    background-color: white;
+    width: 400px;
     
 }
 
+.titolo-main {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
 
 
 /* regole sezione grigia */
 
 .section {
-    background-color: lightgrey;
+    background-color: #F5F5F5;
     height: 650px;
     display: flex;
     justify-content:center;
