@@ -124,8 +124,7 @@ button {
 }
 
 img {
-    width: 600px;
-    height: 500px;
+  
     background-repeat: no-repeat;
 }
 
@@ -148,6 +147,7 @@ img {
 .titolo-main {
     font-size: 50px;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 p {
@@ -171,10 +171,12 @@ p {
 .speciale {
     display: flex;
     height: 900px;
-    background-color: lightgrey;
+    background-color: #F5F5F5;
     align-items:center;
     flex-wrap: wrap;
     justify-content:space-evenly;
+    flex-direction: column;
+    
 
 
 }
@@ -182,16 +184,37 @@ p {
 /* regole debug sezione speciale */
 .text-speciale {
     width: 70%;
-    height: 100px;
-    background-color: white;
+    
+    
+    text-align: center;
+    
+}
+
+.footer-speciale {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    
 
 }
 
-.img-speciale {
-    width: 80%;
-    height: 500px;
-    background-color: black;
+.butt-speciale {
+    background-color: #7289DA;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    
+    text-align: center;
+    margin-bottom: 60px;
 }
+
+/* .footer-speciale {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    
+    text-align: center;
+} */
 
 
 /* regole footer */
