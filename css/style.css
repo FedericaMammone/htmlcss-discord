@@ -71,6 +71,8 @@ button {
     padding: 10px;
     border-radius: 20px;
     border: 0;
+    
+   
 }
 
 .butt-black {
@@ -98,7 +100,7 @@ button {
 
 .text-head {
     font-size: 20px;
-
+    
 }
 
 .section-head {
@@ -226,31 +228,50 @@ footer {
     justify-content: space-evenly;
     align-items:flex-start;
     flex-wrap:wrap;
+    padding: 30px;
     
 }
 
+.flag {
+    width: 20px;
+}
 .left {
-    display: flex;
-    width: 20%;
-    background-color: yellowgreen;
-    flex-direction: column;
-    justify-content:center;
     
+    width: 20%;
+    
+    color: white;
+    line-height: 30px;
+    
+    
+}
+
+.footer-h1 {
+    color: #7289DA;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .menu-footer {
     display: flex;
     width: 60%;
-    background-color: green;
+    
     flex-direction: row;
     justify-content:space-around;
+    
 }
 
 .list-menu {
    
     list-style: none;
+    line-height: 30px;
+    color: white;
     
 }
+
+li:first-child {
+    color: #7289DA;
+}
+
 
 .footer-foot {
     width: 86%;
@@ -259,10 +280,8 @@ footer {
 
     padding: 30px;
     margin-bottom: 20px;
-display: flex;
-
-    
-    
+    display: flex;
+ 
 }
 
 .container-foot {
