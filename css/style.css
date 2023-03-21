@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* regole header */
+
+header {
+    height: 500px;
+    background-color: rgb(33, 161, 235);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+.nav-head {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+background-color: red;
+margin-top: 20px;
+height: 50px;
+width: 100%;
+align-items: center;
+}
+
+.list-head {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+
+.butt-nav {
+    background-color: white;
+   
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+}
+
+/* regole section header */
+
+.section-head {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+
+}
+
+
+/* regole debug section header */
+.text-head {
+    background-color: black;
+    height: 60px;
+
+}
+
+.section-head {
+    background-color: aqua;
+    width: 700px;
+    height: 300px;
+}
+
+/* regole main */
+
+/* regole sezione bianca */
+
+.section-white {
+    display: flex;
+    background-color: burlywood;
+    height: 650px;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    
+}
+
+.img {
+    background-color: black;
+    height: 250px;
+    width: 400px;
+
+}
+
+.text-main {
+    
+    width: 300px;
+    background-color: white;
+    
+}
+
+
+
+/* regole sezione grigia */
+
+.section {
+    background-color: lightgrey;
+    height: 650px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.speciale {
+    display: flex;
+    height: 900px;
+    background-color: lightgrey;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+}
+
+/* regole debug sezione speciale */
+.text-speciale {
+    width: 70%;
+    height: 100px;
+    background-color: white;
+
+}
+
+.img-speciale {
+    width: 80%;
+    height: 500px;
+    background-color: black;
+}
+
+
+/* regole footer */
+
+footer {
+    display: flex;
+    
+    background-color: rgb(36, 43, 48);
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    
+}
+
+.left {
+    display: flex;
+    width: 20%;
+    background-color: yellowgreen;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.menu-footer {
+    display: flex;
+    width: 60%;
+    background-color: green;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.list-menu {
+   
+    list-style: none;
+    
+}
+
+.footer-foot {
+    width: 86%;
+    background-color: white;
+    
+
+    padding: 30px;
+    margin-bottom: 20px;
+display: flex;
+
+    
+    
+}
+
+.container-foot {
+    
+}
+
+
+
+
+
+
