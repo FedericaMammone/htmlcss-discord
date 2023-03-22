@@ -84,12 +84,10 @@ button {
 /* regole section header */
 
 .section-head {
-    display: flex;
-    
-    flex-wrap: wrap;
-    justify-content: center;
+
     text-align: center;
     color: white;
+    
     
 
 }
@@ -104,10 +102,11 @@ button {
 }
 
 .section-head {
-    background-color: 0,0,0,0.5;
+    
     width: 800px;
     height: 300px;
-    line-height: 30px;
+    
+    line-height: 80px;
 
 }
 
@@ -197,6 +196,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     height: 50px;
+    padding: 20px;
     
 
 }
@@ -209,6 +209,7 @@ p {
     
     text-align: center;
     margin-bottom: 60px;
+    margin-top: 20px;
     
 }
 
@@ -250,6 +251,10 @@ footer {
     
 }
 
+.fa-brands {
+    margin-right: 15px;
+}
+
 .footer-h1 {
     color: #7289DA;
     font-size: 30px;
@@ -259,8 +264,6 @@ footer {
 .menu-footer {
     display: flex;
     width: 60%;
-    
-    flex-direction: row;
     justify-content:space-around;
     
 }
